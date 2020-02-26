@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
-
+mainClassName = 'MyFirstProgram'
 task wrapper (type: Wrapper) {
 
-    gladleVersion = '1.12'
+    gladlVersion = '1.12'
 }

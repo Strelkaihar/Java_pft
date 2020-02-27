@@ -1,7 +1,11 @@
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = 'MyFirstProgram'
-task wrapper (type: Wrapper) {
 
-    gladlVersion = '1.12'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.testng:testng:7.1.0")
 }
